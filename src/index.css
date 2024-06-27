@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* src/styles.css */
 textarea {
   font-family: 'Fira Code', monospace;
   font-size: 14px;
   line-height: 1.5;
   caret-color: #2563eb;
-  /* Tailwind blue-600 */
 }
 
 pre {
@@ -16,13 +14,8 @@ pre {
   font-size: 14px;
   line-height: 1.5;
   white-space: pre-wrap;
-  /* Since CSS 2.1 */
   white-space: -moz-pre-wrap;
-  /* Mozilla, since 1999 */
   white-space: -pre-wrap;
-  /* Opera 4-6 */
   white-space: -o-pre-wrap;
-  /* Opera 7 */
   word-wrap: break-word;
-  /* Internet Explorer 5.5+ */
 }
